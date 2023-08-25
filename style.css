@@ -4,6 +4,10 @@
   margin: 0;
   padding: 0;
   font-family: "Work Sans", sans-serif;
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
 }
 
 
@@ -52,6 +56,265 @@
      cursor:pointer;  
     text-align: right;
   }
-  
-  
-  
+/* ======== Main ======== */
+
+main {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+section {
+  margin-top: 8rem;
+}
+
+footer {
+  margin-top: 8rem;
+}
+
+/* ======== failure Section Style ======== */
+
+.failure {
+  padding: 20px 20px;
+}
+
+.failure-content {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.second-content {
+  width: 50%;
+  margin-top: 11%;
+}
+
+.failure-title {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 47px;
+  color: #151414;
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.failure-sub-title {
+  font-size: 16px;
+  line-height: 22px;
+  color: #444343;
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+
+.fa-check {
+  color: rgb(2, 196, 2);
+}
+
+.list-item-description {
+  color: #444343;
+  margin-top: 16px;
+}
+
+/* ======== failure Section Style ======== */
+
+.achievement {
+  padding: 20px 20px;
+}
+
+.achievement-content {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.achievement-title {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 47px;
+  color: #151414;
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.achievement-sub-title {
+  font-size: 16px;
+  line-height: 22px;
+  color: #444343;
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+
+.achievement-first-content {
+  width: 50%;
+  margin-top: 5%;
+}
+
+/* ======== Our Plan Section Style =========== */
+
+.our-plan {
+  padding: 20px 20px;
+}
+
+.plans-title {
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  color: #151414;
+  margin-bottom: 28px;
+}
+
+.our-plan-content {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.contents {
+  margin-top: 32px;
+}
+
+.plan-img {
+  height: 80px;
+  width: 80px;
+}
+
+.plan-title {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #151414;
+}
+
+.plan-description {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #737272;
+}
+
+/* ======== Mindset Section Style =========== */
+.mindset {
+  margin-bottom: 8px;
+  padding: 80px 25px;
+  background-image: url("../images/watch.png"),
+    linear-gradient(90deg, #005fac 0%, rgba(0, 95, 172, 0) 100%);
+  background-blend-mode: overlay;
+  border-radius: 8px;
+  background-repeat: no-repeat;
+}
+
+.mindset-content {
+  margin-left: 35px;
+}
+
+.mindset-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+
+.mindset-content .btn-primary {
+  margin-top: 8px;
+}
+
+/* ======== Footer Section =========== */
+
+footer {
+  background: #151414;
+  padding: 100px 180px;
+  height: auto;
+}
+
+.footer-contents {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: #f8f8f8;
+  margin-bottom: 20px;
+}
+
+.footer-description {
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-top: 18px;
+  width: 70%;
+}
+
+.social-icons {
+  display: flex;
+  margin-top: 20px;
+}
+
+.social-icons ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.social-icons ul li i {
+  background-color: white;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.fa-facebook {
+  color: #005fac;
+}
+
+.fa-twitter {
+  color: #00acee;
+}
+
+.fa-youtube {
+  color: #ff0000;
+}
+
+.footer-second-title {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+input {
+  padding: 15px 30px;
+  outline: none;
+  width: 85%;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  background: transparent;
+  color: white;
+  margin-top: 18px;
+}
+
+input::placeholder {
+  color: #f3f3f3;
+}
+
+.right-side button {
+  background: #005fac;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 18px;
+  color: #ffffff;
+  margin-top: 20px;
+  padding: 20px 35px !important;
+  border: none;
+  cursor: pointer;
+}
